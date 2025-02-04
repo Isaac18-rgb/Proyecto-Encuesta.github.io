@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Encuesta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        
+    body {
+        font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://estaticosgn-cdn.deia.eus/clip/93dfb3ca-cf83-4d3c-af97-8a12190639de_16-9-aspect-ratio_default_0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fffffe; /* Color blanco en tonos apagados */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #004643;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #d35400;
+}
+
+main {
+    margin-top: 140px;
+    padding: 20px;
+}
+
+.question {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f39c12; /* Letras en blanco */
+}
+
+.question:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+    
+.campo {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    color: #FFF; 
+}
+
+.titulo-campo {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:  #abd1c6;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resultados de la encuesta sobre detección y advertencia de ciclistas en intersecciones</h1>
+   
+
+        <nav>
+            <a href="#q1">Pregunta 1</a>
+            <a href="#q2">Pregunta 2</a>
+            <a href="#q3">Pregunta 3</a>
+            <a href="#q4">Pregunta 4</a>
+            <a href="#q5">Pregunta 5</a>
+            <a href="#q6">Pregunta 6</a>
+            <a href="#q7">Pregunta 7</a>
+            <a href="#q8">Pregunta 8</a>
+            <a href="#q9">Pregunta 9</a>
+            <a href="#q10">Pregunta 10</a>
+
+        </nav>
+    </header>
+    <main>
+        <div id="q1" class="question" data-aos="fade-up" >
+            <h2>Pregunta 1.- ¿Que medio de transporte utiliza usted comúnmente para movilizarse? </h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="1.jpeg" alt="1" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Considerando los resultados mostrados, se puede observar que la mayoría de los encuestados utilizan el transporte público como su principal medio de movilización, representando un 59% del total. Esto indica que más de la mitad de las personas dependen de este tipo de transporte en su día a día. Esto evidencia que el uso de la bicicleta como medio de transporte es bajo entre los encuestados. dada la vulnerabilidad de los ciclistas en la vía pública estos resultados refuerzan la importancia de implementar sistemas de detección y advertencia que promuevan su seguridad..</p>
+            </div>
+        </div>
+
+        <div id="q2" class="question" data-aos="fade-up">
+            <h2>Pregunta 2.- Desde que edad usted ha utilizado el medio transporte ¨Bicicleta¨</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="2.jpeg" alt="2" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Los resultados se relacionan con la pregunta 1 ya que reflejan que el 29,5% de los encuestados nunca han utilizado una bicicleta. Esto indica que una parte significativa de la población no tiene experiencia directa con este medio de transporte y debido a esto optan por la utilización de otro medio de transporte. </p>
+            </div>
+        </div>
+
+        <div id="q3" class="question" data-aos="fade-up">
+            <h2>Pregunta 3.- ¿Con que frecuencia utiliza usted una bicicleta?</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="3.jpeg" alt="3" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Es relevante señalar que el 60,3% de los encuestados indicó que no utilizado una bicicleta. Este porcentaje refleja una tendencia significativa hacia la falta de uso de este medio de transporte igualmente se relaciona con la pregunta 2 sobre que los encuestados nunca han utilizado este medio de transporte ya sea por diversos aspectos sociales.</p>
+            </div>
+        </div>
+
+        <div id="q4" class="question" data-aos="fade-up">
+            <h2>Pregunta 4.- ¿Según su criterio quien es el culpable de cometer más accidentes viales? </h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="4.jpeg" alt="4" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>De acuerdo con los resultados, el 53.8% de los encuestados considera que los conductores son los principales responsables de cometer más accidentes viales, destacando el rol en la seguridad vial. Así mismo con un 33.3% atribuye la culpa a los motociclistas esto equivale a que mas del 87.1% esta de acuerdo que ambos son los que cometen más accidentes viales y esto conlleva a decesos de personas ya sea que el conductor o motociclista iba a exceso de velocidad o distraído.</p>
+            </div>
+        </div>
+
+        <div id="q5" class="question" data-aos="fade-up">
+            <h2>Pregunta 5.- Según su criterio piensa que los conductores respetan las señaléticas viales</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="5.jpeg" alt="5" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Según los resultados obtenido se presenta el 66,7% de los encuestados concuerdan que tal vez los conductores respetan las señaléticas viales pero se relaciona con la anterior pregunta en donde los conductores cometen mas accidentes esto se puede deber a que van a un exceso de velocidad y eso hace que hoy en dio veamos a los conductores como un peligro en las vías.</p>
+            </div>
+        </div>
+
+        <div id="q6" class="question" data-aos="fade-up">
+            <h2>Pregunta 6.- Tiene conocimiento acerca de las medidas de seguridad al momento de utilizar una bicicleta en una vía publica </h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="6.jpeg" alt="6" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Según el análisis el 35.9% tiene un conocimiento adecuado sobre medidas de seguridad, mientras que el 53.8% tiene poco conocimiento Esto se puede deber a que basándonos en la pregunta 3 la bicicleta no es un medio utilizado comúnmente eso se puede deber a que un ciclista se encuentra vulnerable en las vías.</p>
+            </div>
+        </div>
+
+        <div id="q7" class="question" data-aos="fade-up">
+            <h2>Pregunta 7.- Tiene conocimiento acerca de las medidas de seguridad al momento de utilizar una bicicleta en una vía publica</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="7.jpeg" alt="7" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>Basándonos en los resultados las normas de seguridad son respetadas pocas veces con un 74.4% evidenciando un entorno vial inseguro. Este resultado se alinea con la pregunta 4 con la percepción de culpabilidad , donde se identifica la distracción como un problema central, y así mismo en la pregunta 6 que conlleva a un bajo conocimiento sobre normas de seguridad. </p>
+            </div>
+        </div>
+
+        <div id="q8" class="question" data-aos="fade-up">
+            <h2>Pregunta 8.- ¿Cree que un sistema de advertencia ayudaría a mejorar la seguridad en las intersecciones?</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="8.jpeg" alt="8" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>De acuerdo con los resultados, un porcentaje significativo de los encuestados equivalente al 67,9% considera que un sistema de advertencia ayudaría a mejorar la seguridad en las intersecciones, relacionado con los resultados de la pregunta 4, donde la mayoría identifica a los conductores como los principales responsables de los accidentes viales. Esto indica que las intersecciones son puntos críticos de riesgo y que una advertencia temprana podría reducir los conflictos entre usuarios de la vía.</p>
+            </div>
+        </div>
+
+        <div id="q9" class="question" data-aos="fade-up">
+            <h2>Pregunta 9.- Considera usted que un sistema de detección con la utilización de sensores ayudaría a disminuir los accidentes viales</h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="9.jpeg" alt="9" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>El resultado de esta pregunta muestra que una amplia mayoría, como el 65,7&, opina que un sistema de detección basado en sensores sería efectivo para disminuir los accidentes viales. esta tendencia puede estar influenciada por los resultados de la pregunta 6, donde un porcentaje considerable indicó tener poco conocimiento sobre medidas de seguridad vial. Esto sugiere que los encuestados perciben en los sensores una solución tecnológica accesible y confiable para enfrentar problemas de seguridad vial.</p>
+            </div>
+        </div>
+
+        <div id="q10" class="question" data-aos="fade-up">
+            <h2>Pregunta 10.- ¿Según su criterio implementaría usted un sistema de detección en el sector donde vive? </h2>
+            <div class="campo">
+                <span class="titulo-campo">Tabulación:</span>
+                <p><img src="10.jpeg" alt="10" width="50%" height="50%"></p>
+            </div>
+            <div class="campo">
+                <span class="titulo-campo">Análisis:</span>
+                <p>La pregunta refleja que un 61,5%  de los encuestados estaría dispuesto a implementar un sistema de detección en su sector, lo que refuerza la aceptación hacia tecnologías que mejoren la seguridad. Esta tendencia puede relacionarse con la pregunta 7, donde los ciclistas no siempre respetan las normativas, aumentando la percepción de vulnerabilidad en las vías y destacando la necesidad de soluciones automatizadas.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Creado por el estudiante <a href="#">Isaac Guaman</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
